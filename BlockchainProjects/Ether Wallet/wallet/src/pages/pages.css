@@ -1,0 +1,19 @@
+.inputfields{
+    @apply
+
+    p-3
+    text-center
+    font-semibold
+    border-2
+    border-gray-800
+}
+
+.sendfields{
+    @apply
+
+    text-center
+    font-semibold
+    border-2
+    border-gray-800
+    rounded
+}
