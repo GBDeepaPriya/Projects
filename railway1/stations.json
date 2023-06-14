@@ -1,0 +1,307 @@
+{
+    "stations": [{
+            "name": "YESVANTPUR JN - YPR"
+        },
+        {
+            "name": "KOLKATA - KOAA"
+        },
+        {
+            "name": "LOKMANYATILAK T - LTT"
+        },
+        {
+            "name": "RAJENDRANAGAR T - RJPB"
+        },
+        {
+            "name": "BANDRA TERMINUS - BDT"
+        },
+        {
+            "name": "VISAKHAPATNAM - VSKP"
+        },
+        {
+            "name": "ANAND VIHAR TRM - ANVT"
+        },
+        {
+            "name": "MUMBAI CENTRAL - MMCT"
+        },
+        {
+            "name": "C SHIVAJI MAH T - CSMT"
+        },
+        {
+            "name": "GUWAHATI - GHY"
+        },
+        {
+            "name": "KACHEGUDA - KCG"
+        },
+        {
+            "name": "CHANDIGARH - CDG"
+        },
+        {
+            "name": "GORAKHPUR JN - GKP"
+        },
+        {
+            "name": "BHUBANESWAR - BBS"
+        },
+        {
+            "name": "GUNTUR JN - GNT"
+        },
+        {
+            "name": "KHARAGPUR JN - KGP"
+        },
+        {
+            "name": "BAREILLY - BE"
+        },
+        {
+            "name": "KRISHNARAJAPURM - KJM"
+        },
+        {
+            "name": "KOZHIKKODE - CLT"
+        },
+        {
+            "name": "KANPUR CENTRAL - CNB"
+        },
+        {
+            "name": "GWALIOR - GWL"
+        },
+        {
+            "name": "GHAZIABAD - GZB"
+        },
+        {
+            "name": "RANI KAMALAPATI - RKMP"
+        },
+        {
+            "name": "KOTA JN - KOTA"
+        },
+        {
+            "name": "KATPADI JN - KPD"
+        },
+        {
+            "name": "BIKANER JN - BKN"
+        },
+        {
+            "name": "DELHI S ROHILLA - DEE"
+        },
+        {
+            "name": "HARIDWAR JN - HW"
+        },
+        {
+            "name": "HOWRAH JN - HWH"
+        },
+        {
+            "name": "HYDERABAD DECAN - HYB"
+        },
+        {
+            "name": "INDORE JN BG - INDB"
+        },
+        {
+            "name": "DELHI - DLI"
+        },
+        {
+            "name": "JAMMU TAWI - JAT"
+        },
+        {
+            "name": "JABALPUR - JBP"
+        },
+        {
+            "name": "AHMEDABAD JN - ADI"
+        },
+        {
+            "name": "BHOPAL JN - BPL"
+        },
+        {
+            "name": "VADODARA JN - BRC"
+        },
+        {
+            "name": "V LAKSHMIBAI - VGLB"
+        },
+        {
+            "name": "AGRA CANTT - AGC"
+        },
+        {
+            "name": "AJMER JN - AII"
+        },
+        {
+            "name": "VARANASI JN - BSB"
+        },
+        {
+            "name": "DADAR - DR"
+        },
+        {
+            "name": "PRAYAGRAJ JN. - PRYJ"
+        },
+        {
+            "name": "BILASPUR JN - BSP"
+        },
+        {
+            "name": "JAIPUR - JP"
+        },
+        {
+            "name": "BORIVALI - BVI"
+        },
+        {
+            "name": "ERODE JN - ED"
+        },
+        {
+            "name": "ERNAKULAM TOWN - ERN"
+        },
+        {
+            "name": "ERNAKULAM JN - ERS"
+        },
+        {
+            "name": "JODHPUR JN - JU"
+        },
+        {
+            "name": "AMRITSAR JN - ASR"
+        },
+        {
+            "name": "AURANGABAD - AWB"
+        },
+        {
+            "name": "VIJAYAWADA JN - BZA"
+        },
+        {
+            "name": "KANNUR - CAN"
+        },
+        {
+            "name": "COIMBATORE JN - CBE"
+        },
+        {
+            "name": "PUNE JN - PUNE"
+        },
+        {
+            "name": "PURI - PURI"
+        },
+        {
+            "name": "KALYAN JN - KYN"
+        },
+        {
+            "name": "MYSURU JN - MYS"
+        },
+        {
+            "name": "RAIPUR JN - R"
+        },
+        {
+            "name": "LUDHIANA JN - LDH"
+        },
+        {
+            "name": "NEW DELHI - NDLS"
+        },
+        {
+            "name": "RAJAHMUNDRY - RJY"
+        },
+        {
+            "name": "LUCKNOW NE - LJN"
+        },
+        {
+            "name": "LUCKNOW NR - LKO"
+        },
+        {
+            "name": "H SAHIB NANDED - NED"
+        },
+        {
+            "name": "NAGPUR - NGP"
+        },
+        {
+            "name": "NEW JALPAIGURI - NJP"
+        },
+        {
+            "name": "NASHIK ROAD - NK"
+        },
+        {
+            "name": "SURAT - ST"
+        },
+        {
+            "name": "RANCHI - RNC"
+        },
+        {
+            "name": "MADGAON - MAO"
+        },
+        {
+            "name": "MGR CHENNAI CTL - MAS"
+        },
+        {
+            "name": "SOLAPUR JN - SUR"
+        },
+        {
+            "name": "MADURAI JN - MDU"
+        },
+        {
+            "name": "SALEM JN - SA"
+        },
+        {
+            "name": "MUZAFFARPUR JN - MFP"
+        },
+        {
+            "name": "H NIZAMUDDIN - NZM"
+        },
+        {
+            "name": "TATANAGAR JN - TATA"
+        },
+        {
+            "name": "TAMBARAM - TBM"
+        },
+        {
+            "name": "THRISUR - TCR"
+        },
+        {
+            "name": "KSR BENGALURU - SBC"
+        },
+        {
+            "name": "SECUNDERABAD JN - SC"
+        },
+        {
+            "name": "SEALDAH - SDAH"
+        },
+        {
+            "name": "DD UPADHYAYA JN - DDU"
+        },
+        {
+            "name": "TIRUNELVELI - TEN"
+        },
+        {
+            "name": "THANE - TNA"
+        },
+        {
+            "name": "TIRUCHCHIRAPALI - TPJ"
+        },
+        {
+            "name": "TIRUPATI - TPTY"
+        },
+        {
+            "name": "CHENNAI EGMORE - MS"
+        },
+        {
+            "name": "PATNA JN - PNBE"
+        },
+        {
+            "name": "PANVEL - PNVL"
+        },
+        {
+            "name": "TRIVANDRUM CNTL - TVC"
+        },
+        {
+            "name": "SSS HUBBALLI JN - UBL"
+        },
+        {
+            "name": "MATHURA JN - MTJ"
+        },
+        {
+            "name": "UDAIPUR CITY - UDZ"
+        },
+        {
+            "name": "UJJAIN JN - UJN"
+        },
+        {
+            "name": "AMBALA CANT JN - UMB"
+        },
+        {
+            "name": "BANARAS - BSBS"
+        },
+        {
+            "name": "VAPI - VAPI"
+        },
+        {
+            "name": "SORATH VANTHIL"
+        }
+
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "trains": [{
+            "name": "KR Express"
+        },
+        {
+            "name": "Agra Jaipur Express"
+        },
+        {
+            "name": "Kolkatta Express"
+        },
+        {
+            "name": "Rajendranagar Express"
+        },
+        {
+            "name": "Mumbai Express"
+        },
+        {
+            "name": "Yesvantpur Express"
+        },
+        {
+            "name": "Shivai Express"
+        }
+
+
+    ]
+}

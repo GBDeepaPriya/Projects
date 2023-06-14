@@ -1,0 +1,43 @@
+{
+    "allclasses": [{
+            "name": "Anubhuti Class (EA)"
+        },
+        {
+            "name": "AC First Class (1A)"
+        },
+        {
+            "name": "Vistadome AC (EV)"
+        },
+        {
+            "name": "Exec. Chair Car (EC)"
+        },
+        {
+            "name": "AC 2 Tier(2A)"
+        },
+        {
+            "name": "First Class (FC)"
+        },
+        {
+            "name": "AC 3 Tier (3A)"
+        },
+        {
+            "name": "AC 3 Economy (3E))"
+        },
+        {
+            "name": "Vistadome Chair Car (VC)"
+        },
+
+        {
+            "name": "AC Chair car (CC)"
+        },
+        {
+            "name": "Sleeper (SL)"
+        },
+        {
+            "name": "Vistadome Non AC (VS)"
+        },
+        {
+            "name": "Second Sitting (2S)"
+        }
+    ]
+}

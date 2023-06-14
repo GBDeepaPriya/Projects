@@ -1,0 +1,226 @@
+/* Apply default styles to body and main div */
+.bg_body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: url("train2.jpg");
+    background-size :cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+}
+
+.main-body {
+    display: flex;
+    
+   
+    height: 97vh;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* Style the header */
+#station-header {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family:'Times New Roman', Times, serif;
+    color: #25045a;
+}
+
+/* Style the form */
+/* form {
+    float:left;
+    margin:78%;
+    width:120%;
+    height: 60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 228, 240);
+    padding: 2rem;
+   border-radius: 50 px;
+    border-color: #000000;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    
+} */
+.d-flex{
+    display: flex;
+}
+
+
+label {
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1.0rem;
+   
+    color: #0643d1;
+}
+
+/* Style the select boxes */
+.custom_select {
+    padding: 0.3rem;
+    border: solid;
+    /*border-style:solid;
+    */
+    border-color: #474444;
+    margin-bottom: 0.7rem;
+    border-radius: -100px;
+    width: 100%;
+    size-adjust:inherit;
+}
+.from {
+    display: flex;
+    align-items: center;
+}
+
+.from-field {
+    position: relative;
+}
+
+
+.to {
+    display: flex;
+    align-items: center;
+}
+
+.to-field {
+    position: relative;
+}
+
+.class {
+    display: flex;
+    align-items: center;
+}
+
+.class-field {
+    position: relative;
+}
+
+
+.speech-button {
+    float:right;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+
+.allclasses{
+    padding: 0.3rem;
+    border: solid;
+   
+    /*border-style:solid;
+    */
+    border-color: #474444;
+    margin-bottom: 0.7rem;
+    border-radius: -100px;
+    width: 100%;
+}
+
+
+.date {
+    padding: 0.3rem;
+    border: solid;
+    /*border-style:solid;
+    */
+    border-color: #474444;
+    margin-bottom: 0.7rem;
+    border-radius: -100px;
+    width: 100%;
+
+}
+
+/* Style the submit button */
+.btn {
+    padding: 1.0rem 1.4rem;
+    background-color:#25045a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+/* Style the table */
+table {
+    box-align: center;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr {
+    background-color: #f5f5f5;
+}
+
+tr:hover {
+    background-color: #5f8daf;
+}
+
+.form_bg{
+    background-color:rgb(224, 228, 240) ;
+    height: 88vh;
+    width: 50%;
+    padding: 30px;
+    
+}
+.mt-50{
+    margin-top: 30px;
+}
+.button_style{
+    background-color: #25045a;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 25px;
+}
+select{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px 25px;
+    
+}
+.txt-centre{
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+
+}
+
+.forn_bg_left{
+    width: 50%;
+}
+
+.w-30{
+    width: 30%;
+}
+.w-70{
+     width:70%;
+}

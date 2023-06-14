@@ -1,0 +1,21 @@
+{
+    "general": [{
+            "name": "GENERAL"
+        },
+        {
+            "name": "LADIES"
+        },
+        {
+            "name": "LOWER BERTH/SR.CITIZEN"
+        },
+        {
+            "name": "PERSON WITH DISABILITY"
+        },
+        {
+            "name": "TATKAL"
+        },
+        {
+            "name": "PREMIUM TATKAL"
+        }
+    ]
+}
