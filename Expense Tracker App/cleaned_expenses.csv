@@ -1,0 +1,5 @@
+Date,Category,Description,Amount,Type,Month,Day,Weekday
+2024-04-01,Food,Pizza order,250,Expense,April,1,Monday
+2024-04-02,Salary,Monthly salary,50000,Income,April,2,Tuesday
+2024-04-03,Transport,Uber ride,350,Expense,April,3,Wednesday
+2024-04-04,Bills,Electricity bill,1200,Expense,April,4,Thursday

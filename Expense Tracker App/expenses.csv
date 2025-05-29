@@ -1,0 +1,54 @@
+Date,Category,Description,Amount,Type
+2024-01-01,Food,Pizza order,250,Expense
+2024-01-02,Transport,Metro pass,120,Expense
+2024-01-03,Utilities,Electricity bill,950,Expense
+2024-01-04,Income,Salary,50000,Income
+2024-01-05,Entertainment,Movie night,300,Expense
+2024-01-06,Health,Pharmacy purchase,600,Expense
+2024-01-07,Shopping,Clothing,2000,Expense
+2024-01-08,Food,Grocery shopping,1500,Expense
+2024-01-09,Transport,Taxi fare,350,Expense
+2024-01-10,Income,Freelance project,8000,Income
+2024-01-11,Utilities,Water bill,400,Expense
+2024-01-12,Education,Online course,2500,Expense
+2024-01-13,Food,Coffee shop,200,Expense
+2024-01-14,Health,Gym membership,1200,Expense
+2024-01-15,Entertainment,Concert tickets,1500,Expense
+2024-01-16,Shopping,Electronics,5000,Expense
+2024-01-17,Transport,Bus pass,100,Expense
+2024-01-18,Income,Bonus,10000,Income
+2024-01-19,Utilities,Internet bill,700,Expense
+2024-01-20,Food,Restaurant dinner,1800,Expense
+2024-01-21,Health,Doctor visit,800,Expense
+2024-01-22,Education,Books purchase,1200,Expense
+2024-01-23,Entertainment,Streaming subscription,500,Expense
+2024-01-24,Shopping,Home decor,2500,Expense
+2024-01-25,Transport,Petrol,1500,Expense
+2024-01-26,Income,Investment return,7000,Income
+2024-01-27,Utilities,Gas bill,600,Expense
+2024-01-28,Food,Fast food,300,Expense
+2024-01-29,Health,Medical tests,2000,Expense
+2024-01-30,Education,Workshop fee,1800,Expense
+2024-01-31,Entertainment,Game purchase,1000,Expense
+2024-02-01,Shopping,Accessories,800,Expense
+2024-02-02,Transport,Train ticket,400,Expense
+2024-02-03,Income,Part-time job,6000,Income
+2024-02-04,Utilities,Phone bill,900,Expense
+2024-02-05,Food,Bakery items,350,Expense
+2024-02-06,Health,Insurance premium,3000,Expense
+2024-02-07,Education,Tuition fee,10000,Expense
+2024-02-08,Entertainment,Theater play,1200,Expense
+2024-02-09,Shopping,Furniture,7000,Expense
+2024-02-10,Transport,Cab ride,500,Expense
+2024-02-11,Income,Dividend,4000,Income
+2024-02-12,Utilities,Maintenance charges,1100,Expense
+2024-02-13,Food,Snacks,150,Expense
+2024-02-14,Health,Optician visit,2500,Expense
+2024-02-15,Education,Online seminar,900,Expense
+2024-02-16,Entertainment,Music album,600,Expense
+2024-02-17,Shopping,Kitchen appliances,4500,Expense
+2024-02-18,Transport,Parking fee,200,Expense
+2024-02-19,Income,Gift received,3000,Income
+2024-02-20,Utilities,TV subscription,800,Expense
+2024-02-21,Food,Restaurant lunch,1200,Expense
+2024-02-22,Health,Dental checkup,1800,Expense
