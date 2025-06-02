@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#show").click(function() {
+                $("#div").show("fast");
+            });
+            $("#hide").click(function() {
+                $("#div").hide(1000, "swing");
+            });
+            $("#toggle").click(function() {
+                $("#div").toggle("slow");
+            });
+        });
+    </script>
+    <!--<script>
+        $(document).ready(function() {
+            $("#show").click(function() {
+                $("#div").slideUp(1000);
+
+            });
+            $("#hide").click(function() {
+                $("#div").slideDown("fast", "linear");
+
+            });
+            $("#toggle").click(function() {
+                $("#div").slideToggle("slow");
+
+            });
+        });
+    </script>-->
+    <style type="text/css">
+        #div {
+            border: 1px solid gray;
+            background-color: #bd74ed;
+            font-size: 24pt;
+            padding-left: 10pt;
+            padding-right: 10pt;
+            height: 200px;
+            width: 300px;
+            text-align: center;
+        }
+        
+        button {
+            margin: 5pt 5pt 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JQuery show and hide effects</h1>
+    <div id="div">Div Box</div>
+    <button id="show" style="background-color: #0daade;width:100px;height:50px;border:none;">show </button>
+    <button id="hide" style="background-color: #de410d;width:100px;height:50px;border:none;">Hide</button>
+    <button id="toggle" style="background-color: #c1c724;width:100px;height:50px;border:none;">Toggle</button>
+</body>
+
+</html>

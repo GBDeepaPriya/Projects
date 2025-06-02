@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--<script>
+    $(documemnt).ready(function() { $(".box").click(function() { $(this).hide(); }); });
+    </script>-->
+    <!--<script>
+    $(documemnt).ready(function() { $(".box").mouseenter(function() { $(this).hide(); }); });
+    </script>-->
+    <!--<script>
+    $(documemnt).ready(function() { $(".box").mouseleave(function() { $(this).hide(); }); });
+    </script>-->
+    <!-- right click<script>
+    $(documemnt).ready(function() { $(".box").mouseup(function() { $(this).hide(); }); });
+    </script>-->
+    <!-- left click<script> 
+    $(documemnt).ready(function() { $(".box").mousedown(function() { $(this).hide(); }); });
+    </script>-->
+    <!--<script> 
+    $(documemnt).ready(function() { $('div').hover(function() { $(this).css({"background-color":"#DE6E49"});},function() { $(this).css({"background-color":"#DE6E49"}); }); });
+    </script>-->
+
+    <script>
+        $(document).ready(function() {
+            $(".box").dblclick(function() {
+                $(this).hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="box" style="width:120px;height:70px;background-color: brown;"></div>
+    <div class="box" style="width:120px;height:70px;background-color: rgb(42, 165, 161);"></div>
+    <div class="box" style="width:120px;height:70px;background-color: rgb(93, 42, 165);"></div>
+    <div class="box" style="width:120px;height:70px;background-color: rgb(151, 165, 42);"></div>
+</body>
+
+</html>

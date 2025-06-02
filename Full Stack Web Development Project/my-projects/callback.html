@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("div").hide("slow", function() {
+                    alert("The div is now hidden");
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button style="background-color: #fa2840;color:#fff;border:none;height:50px;width:170px;">click the box to vanish</button>
+    <div style="background-color:skyblue;height:500px;width:750px;position: absolute;color:white;"></div>
+</body>
+
+</html>

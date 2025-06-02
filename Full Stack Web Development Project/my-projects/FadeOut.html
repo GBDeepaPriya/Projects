@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="jquery.js"></script>
+
+
+    <!--
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#box1").fadeOut();
+                $("#box2").fadeOut("slow");
+                $("#box3").fadeOut(3000);
+                $("#box4").fadeOut(1000);
+            });
+        });
+    </script>-->
+    <!--<script>
+    $(document).ready(function() { $("button").click(function() { $("#box1").fadeTo("slow", 0.25); $("#box2").fadeTo("slow", 0.8); $("#box3").fadeTo("slow", 0.15); $("#box4").fadeTo("slow", 0.30); }); });
+    </script>-->
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#box1").fadeToggle();
+                $("#box2").fadeToggle("slow");
+                $("#box3").fadeToggle(2000);
+                $("#box4").fadeToggle(1000);
+            });
+        });
+    </script>
+</head>
+<style>
+    button {
+        background-color: black;
+        color: white;
+        height: 60px;
+        border-radius: 25%;
+    }
+</style>
+
+<body>
+    <h1>Check out the boxes as they fade out!</h1>
+    <button>Click to fade out boxes</button><br><br>
+    <div id="box1" style="width:120px;height:70px;background-color: brown;"></div><br><br>
+    <div id="box2" style="width:120px;height:70px;background-color: rgb(42, 165, 161);"></div><br><br>
+    <div id="box3" style="width:120px;height:70px;background-color: rgb(93, 42, 165);"></div><br><br>
+    <div id="box4" style="width:120px;height:70px;background-color: rgb(151, 165, 42);"></div>
+</body>
+
+</html>
