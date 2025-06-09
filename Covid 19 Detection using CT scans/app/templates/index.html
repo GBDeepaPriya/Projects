@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Detection</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 100vh;
+            background-color: #ecf0f1;
+        }
+        
+        .left-panel,
+        .right-panel {
+            flex: 1 1 100%;
+        }
+        
+        @media (min-width: 768px) {
+            .left-panel,
+            .right-panel {
+                flex: 1;
+            }
+        }
+        
+        .left-panel {
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #5381dd;
+        }
+        
+        .right-panel {
+            background: url("{{ url_for('static', filename='covid.png') }}") no-repeat center center;
+            background-size: cover;
+            min-height: 250px;
+        }
+        
+        h1 {
+            font-size: 2.2em;
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        form {
+            background-color: #ffffff;
+            color: #2c3e50;
+            border-radius: 12px;
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        input[type="file"] {
+            margin: 15px 0;
+            width: 100%;
+            padding: 10px;
+        }
+        
+        button {
+            background-color: #060d12;
+            color: white;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background-color: #1d6fa5;
+        }
+        
+        .result {
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            color: #2c3e50;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .result h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        
+        .result img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="left-panel">
+        <h1>Covid Detection</h1>
+
+        <form method="POST" action="/" enctype="multipart/form-data">
+            <p><strong>Select a clear CT scan (JPG/PNG):</strong></p>
+            <input type="file" name="file1" accept=".jpg,.jpeg,.png" required>
+            <br>
+            <button type="submit">Analyze Image</button>
+        </form>
+
+        {% if result %}
+        <div class="result">
+            <h2>{{ result }}</h2>
+            {% if image_url %}
+            <img src="{{ image_url }}" alt="Uploaded Image" width="300"> {% endif %}
+        </div>
+        {% endif %}
+    </div>
+    {% if filename %}
+    <script>
+        // Delay delete request by 10 seconds after page load
+        window.onload = function() {
+            setTimeout(function() {
+                fetch('/delete-image', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        filename: "{{ filename }}"
+                    })
+                }).then(res => console.log("Image deleted")).catch(err => console.error(err));
+            }, 1000); // 10 seconds
+        };
+    </script>
+    {% endif %}
+    <div class="right-panel"></div>
+
+</body>
+
+</html>
